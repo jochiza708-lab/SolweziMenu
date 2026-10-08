@@ -1,0 +1,43 @@
+/* Restaurant Cards */
+
+.restaurant-card {
+  background: white;
+  border: 1px solid #e4ecea;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.restaurant-image {
+  height: 190px;
+  background: #edf5f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+}
+
+.restaurant-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.restaurant-info {
+  padding: 20px;
+}
+
+.restaurant-info h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.restaurant-info p {
+  color: #667777;
+  line-height: 1.5;
+}
+
+.restaurant-info small {
+  display: block;
+  margin: 12px 0;
+  color: #667777;
+}
